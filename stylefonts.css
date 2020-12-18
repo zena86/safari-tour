@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'AGAalenBold';
+	src: url('fonts/AGAalenBold-Roman.eot');
+	src: local('fonts/AGAalenBold Roman'), local('AGAalenBold-Roman'),
+		url('fonts/AGAalenBold-Roman.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AGAalenBold-Roman.woff') format('woff'),
+		url('fonts/AGAalenBold-Roman.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AG_Souvenir';
+	src: url('fonts/AGSouvenir.eot');
+	src: local('AG_Souvenir'), local('AGSouvenir'),
+		url('fonts/AGSouvenir.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AGSouvenir.woff') format('woff'),
+		url('fonts/AGSouvenir.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "a_BighausTitulBrkExtraBold";
+	src: url("fonts/a_BighausTitulBrk-ExtraBold.woff"),
+    url("fonts/aBighausTitulBrk ExtraBold.ttf");
+}
+@font-face {
+	font-family: "a_cooperblacknr";
+	src: url("fonts/a_cooperblacknr__allfont.ru_.woff"),
+    url("fonts/a_cooperblacknr_[allfont.ru].ttf");
+}
+
+@font-face {
+	font-family: "AGLettericaBoldBold";
+	src: url("fonts/AGLettericaBoldBold.ttf"), url("fonts/AGLettericaBoldBold.woff") ;
+}
+
+@font-face {
+	font-family: "ag-foreigner-roman-medium";
+	src: url("fonts/ag-foreigner-roman-medium.ttf"), url("fonts/ag-foreigner-roman-medium.woff") ;
+}
+@font-face {
+	font-family: "a_bodoninovanr_italic";
+	src: url("fonts/a_bodoninovanr_italic.ttf"), url("fonts/a_bodoninovanr_italic.woff") ;
+}
+@font-face {
+	font-family: "colaborate-medium";
+	src: url("fonts/colaborate-medium.ttf"), url("fonts/colaborate-medium.woff") ;
+}
+
+@font-face {
+	font-family: "colaborate-thin";
+	src: url("fonts/colaborate-thin.ttf"), url("fonts/colaborate-thin.woff") ;
+}
+@font-face {
+	font-family: "colaborate-regular";
+	src: url("fonts/colaborate-regular.ttf"), url("fonts/colaborate-regular.woff") ;
+}
+@font-face {
+	font-family: "agbenguiatcyr_book";
+	src: url("fonts/agbenguiatcyr_book.ttf"), url("fonts/agbenguiatcyr_book.woff"), url("fonts/agbenguiatcyr_book.svg"), url("fonts/agbenguiatcyr_book.woff2"), url("fonts/agbenguiatcyr_book.eot");
+}
+@font-face {
+	font-family: "a1010helvetika-normal";
+	src: url("fonts/a1010helvetika-normal.ttf"), url("fonts/a1010helvetika-normal.woff") ;
+}
+
+
+@font-face {
+	font-family: "crashctt";
+	src: url("fonts/crashctt.ttf"), url("fonts/crashctt__allfont.ru_.woff") ;
+}
+
+
+@font-face {
+	font-family: "copse";
+	src: url("fonts/copse.ttf"), url("fonts/copse.woff") ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

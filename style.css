@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.allConternt {
+    min-width: 1300px;
+}
+
+/*HEADER*/
+header {
+    background-image: url(images/headerBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*Логотип в HEDER*/
+
+.logo {
+    background-image: url(images/logoBg.png);
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 135px;
+    position: absolute;
+    top: -20px;
+    left: 15%;
+    z-index: 2;
+}
+.safariTour {
+    font-family: 'AGAalenBold', sans-serif;
+    margin-top: 20px;
+    font-size: 33px;
+    line-height: 52px;
+    color: #299fca;
+    transform: rotate(-6deg);
+    margin-left: 13%;
+    margin-top: 10%;     
+}
+.underSafariTour {
+    transform: rotate(-6deg);
+    font-family: Arial;
+    color: #299fca;
+    font-size: 15px;
+    line-height: 52px;
+    margin-left: 18%;
+    margin-top: -13%;
+}
+
+/*Навигация в HEDER*/
+
+nav {
+    background-image: url(images/topmenuBg.png);
+    background-repeat: no-repeat;
+    width: 967px;
+    height: 84px;
+    font-family: "AG_Souvenir", sans-serif;
+    font-size: 17px;
+    line-height: 52px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin-left: 13%;    
+}
+.contanerMenu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 65%;
+}
+nav li {
+    min-width: 19%;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    font-size: 20px;
+    font-weight: bolder;
+}
+/*Баннер с самолетом*/
+
+.empty {
+    height: 300px;
+}
+#contenerTitleAndForm {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.siteTitle {
+    background-image: url(images/whiteCloud.png);
+    background-repeat: no-repeat;
+    width: 557px;
+    height: 289px;
+    margin-top: -12%;
+    margin-left: 10%;
+    align-self: flex-start;       
+}
+.aeroplane {
+    margin-left: -15%;
+    margin-top: 5%;
+}
+.cloudName {
+    font-family: "a_BighausTitulBrkExtraBold";
+    font-size: 51px;
+    line-height: 52px;
+    color: #127ea5;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+.underCloudName {
+    font-family: "a_cooperblacknr";
+    color: #ded90e;
+    font-size: 25px;
+    line-height: 29px;
+    margin-left: 15%;
+}
+.underCloudName1 {
+    margin-left: 40%;
+}
+.underCloudName2 {
+    margin-left: 35%;
+}
+    
+.twoArrows {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 700px;
+    bottom: 135px;
+    z-index: 7;
+    width: 120px;
+}
+
+.contanerArrow2  {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+     
+}
+.ringLeft:hover, .ringRight:hover {
+    cursor: pointer;
+    width: 50px;
+}
+/* Форма в HEDER*/
+
+.onlineBooking {
+    background: url(images/onlineBooking.png) no-repeat;
+    width:236px;
+    height: 49px;
+    font-family: "AGLettericaBoldBold";
+    color: white;
+    font-size: 21px;
+    padding-left: 7%;
+    position: absolute;
+    left: -10%;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+}
+.formHeader {
+    background-color: #299fca;
+    border: solid 6px #7ebee0;
+    border-radius: 15px;
+    width: 320px;
+    margin-top: -69%;
+    margin-left: -40%;
+    height: 450px;
+    position: relative;
+    /*z-index: 5;*/
+}
+.onlyForm {
+    margin-top: 30%;
+}
+.headerInputRow {
+    border: solid 3px #a7d1e6;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 170px;
+    padding-left: 5px;
+    font-family: "ag-foreigner-roman-medium";
+    font-size: 15px;
+    color: #299fca;
+}
+.select {
+    position: relative; /*для позиционирования кастомной стрелочки, относительно этого блокa*/
+    appearance: none;/* убираем дефолнтные стрелочки */
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    font-family: "ag-foreigner-roman-medium";
+    font-size: 15px;
+    color: #299fca;
+    background: url('images/picArrow.png') no-repeat right center;
+    background-color: white;
+    text-align: center;
+    padding-right: 32px; 
+}
+.headerInputRowMessage {
+    height: 50px;
+}
+textarea {
+    resize: none; /*убрать раздвигалку из textarea*/
+}
+.formLadderBtn {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.contenerForm {
+    display: flex;
+    flex-direction: column;
+}
+.allFormRow {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.formWord {
+    width: 30%;
+    text-align: right;
+    color: white;
+    text-shadow: 
+        3px 0 3px #2090b9, 
+        0 3px 3px #2090b9, 
+        -3px 0 3px #2090b9, 
+        0 -3px 3px #2090b9; /*обвести текст*/
+    font-family: "ag-foreigner-roman-medium";
+    padding-right: 7%;   
+}
+.headerBtnSubmit {
+    background-color: #f1e60a;
+    color: #6db3ec;
+    border-radius: 7px;
+    height: 35px;
+    width: 95px;
+    font-family: "AGLettericaBoldBold";
+    font-size: 15px;
+    border: none;
+    z-index: 10;
+}
+.headerBtnSubmit:hover {
+    background-color: white;
+    color: #127ea5;
+    border:solid 3px #127ea5;
+    cursor: pointer;
+}
+
+.tableLadderAndSubmit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ladder {
+    text-align: center;
+    flex-basis: 30%;
+}
+.cloud2 {
+    background: url(images/cloud2.png) no-repeat;
+    width: 100%; 
+    height: 560px; 
+    position: relative;
+    z-index: 5;
+    background-size: 100%;
+}
+.contentCloud1 {
+    background: url(images/cloud1.png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 492px;
+    z-index: 1;
+    bottom: 0;
+    background-size: 100%;
+}
+/*Предложения с фото в HEDER*/
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titleOurSpecialOffers {
+    margin-top: 48%;
+    margin-bottom: 5%;
+    font-family: "a_bodoninovanr_italic";
+    font-size: 29px;
+}
+.specialOffers {
+    color: white;
+    flex-basis: 23%;
+}
+.offers {
+    margin-top: 5%;
+}
+.contanerRow1 {
+    display: flex;
+}
+.contanerRow1 img {
+    flex-basis: 35%;
+}
+.textOffer {
+    margin-left: 5%;  
+}
+.textOffer h3 {
+    font-family: "colaborate-medium";
+    font-size: 17px;
+    margin-bottom: 5%;
+}
+.textOffer p {
+    font-family: "colaborate-thin";
+    font-size: 15px;
+}
+.contanerRow2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+.contanerRow2 span {
+    flex-basis: 10%;
+    font-family: "agbenguiatcyr_book";
+    font-size: 27px;
+    padding-right: 5%;
+}
+.btnReadMore {
+    background-color: #f1e60a;
+    color: #6db3ec;
+    border-radius: 7px;
+    height: 27px;
+    width: 100px;
+    font-family: "AGLettericaBoldBold";
+    font-size: 15px;
+    border: none;
+}
+.btnReadMore:hover {
+    background-color: white;
+    color: #127ea5;
+    border:solid 1px #127ea5;
+    cursor: pointer;
+}
+.contanerRow2Border {
+    border-bottom: dotted 3px white;
+    /*background:url('dоted.png') left bottom repeat-x;*/
+}
+
+/*Таблица с кнопками,кругами и турами в HEDER*/
+.contanerTable {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "colaborate-thin";
+    font-size: 16px;
+    flex-basis: 45%;
+    margin-left: -15%;
+    margin-top: 7%;
+}
+.contanerUponTable {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: solid 1px #81ffff;
+    width: 87%;
+    margin-bottom: 2%;
+}
+.twoBtns, .twoCircles {
+    display: flex;
+}
+
+/*Кнопки*/
+.contanerUponTable button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 6px 6px 0 0;
+    font-family: "a1010helvetika-normal";
+    font-size: 15px;
+    text-transform: uppercase;  
+}
+.contanerBtnTours {
+    padding-right: 3%;
+}
+.btnTours {
+    color: #81ffff;
+    background-color: #299fca;
+}
+.btnToursFocus {
+    color:#299fca;
+    background-color: #81ffff; 
+}
+.btnPhotos {
+    color: #81ffff;
+    background-color: #299fca; 
+}
+.btnPhotosFocus {
+    color:#299fca;
+    background-color: #81ffff;
+}
+.btnTours:hover, 
+.btnPhotos:hover {
+    cursor: pointer;
+}
+/*Круги*/
+.contanerCircleBig, .contanerCircleSmall {
+    position: relative;
+}
+.contanerCircleBig {
+    margin-left: 20%;
+    z-index: 1;
+}
+.circleBig {
+    background-image: url(images/circleBig.png);
+    background-repeat: no-repeat;
+    width: 146px;
+    height: 95px;
+}
+.specialSummer {
+    font-family: "crashctt"; 
+    font-size: 35px;
+    line-height: 0px;
+    color: #64affc;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.specialSummerSmall {
+    font-size: 25px;  
+}
+.contanerCircleSmall {
+    align-self: flex-end;
+    margin-left: -20%;
+    z-index: 2;
+}
+.circleSmall {
+    background-image: url(images/circleSmall.png);
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 45px;  
+}
+.offer {
+    font-family: "copse";
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/*Таблица*/
+.tableRow {
+    display: flex;
+    padding-bottom: 1%;
+    justify-content: space-around;
+}
+.tableCol1 {
+    flex-basis: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.tableCol2 {
+    flex-basis: 60%;
+}
+.tableCol3 {
+    flex-basis: 17%;
+}
+.tableCol4 {
+    flex-basis: 20%;  
+}
+
+/*Секция с картой*/
+
+.mapSection {
+    /*background-image: url(images/mapBg.png);*/
+    background-color: #d6e6ef;
+    padding-bottom: 2%;
+}
+.map {
+    display: table; /*сделать блок по ширине контента*/
+    margin: auto;
+}
+.map path {
+    fill: url(#colorMap);
+}
+.mapSection h2, .mapSection h3 {
+    font-family: "AGLettericaBoldBold";
+    text-align: center;
+}
+.mapSection h2 {
+    font-size: 27px;
+    color: #4690b4;
+    padding-top: 1%;
+}
+.mapSection h3 {
+    font-size: 17px;
+    color: #6ab5d0;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+/*POPUP в секции с картой*/
+.forPosition {
+     
+}
+.contenerPopUp {
+   display: flex;
+    display: none;
+    position: absolute;
+}
+
+.popUpAndScrollAndTitle {
+    background-image: url(images/popUp.png);
+    background-repeat: no-repeat; 
+    width: 357px;
+    height: 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 4%;
+    /*background-image: linear-gradient(to top right, #e5e1e1, #fcfafa);
+    border: solid 3px white;
+    border-radius: 5px;
+    */
+    }
+.popUpAndScroll {  
+    overflow-y: scroll;
+    /*scrollbar-track-color: black;*/
+    height: 187px;
+    width: 235px;
+}
+.popUp {
+    display: flex;
+    flex-direction: column;
+}
+.popUpRow {
+    display: flex;
+    padding-bottom: 6%;
+}
+.popUpRow img {
+    border: solid 3px white;
+    border-radius: 3px;
+}
+.textPopUp {
+    padding-left: 5%;
+}
+.textPopUp h3, .textPopUp p, .popUpAndScrollAndTitle h2 {
+    color: #afafaf;  
+}
+.textPopUp h3 {
+    font-family: "colaborate-medium";
+    font-size: 17px;
+    text-align: left;
+}
+.textPopUp p {
+    font-family: "colaborate-thin";
+    font-size: 14px;
+}
+.popUpAndScrollAndTitle h2 {
+   font-family: "colaborate-regular";
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.empty2 {
+    height: 300px; 
+    width: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #127fa6;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contanerFooter {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+
+.colNewsLetter {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsLetter {
+    display: flex;
+    flex-direction: column;
+}
+
+.inpAndBtnNewsLetter {
+    display: flex;
+}
+
+
+.titleFooter {
+    font-family: "colaborate-regular";
+    font-size: 25px;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-shadow: 0px 2px 0px rgba(15, 111, 146, 0.75);
+}
+.SocialMedia img {
+    padding-right: 2%;
+}
+.SocialMedia img:hover {
+    cursor: pointer;
+}
+.colContactUs {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "colaborate-thin";
+    font-size: 14px;
+    line-height: 27px;
+}
+.contanerRow {
+    display: flex;
+}
+.nameRow {
+    flex-basis: 25%;
+}
+.contanerBtnSubscribe {
+    padding-left: 5%;
+    align-self: center;
+}
+.contenerbtnSubmit {
+    display: flex;
+    justify-content: flex-end;
+}
+.btnFooter {
+    font-family: "colaborate-regular";
+    font-size: 16px;
+    color: #479bba;
+    background-color: #d6e6ef;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px; 
+}
+.btnFooter:hover {
+    cursor: pointer;
+    background-color: #479bba;
+    color: #d6e6ef;
+    border: solid 2px #d6e6ef;
+}
+.contenerInpRow {
+    padding-bottom: 6%;
+    
+}
+.gradient {
+    background: linear-gradient(#133e4e, #98d8ef);
+    border-radius: 5px;
+    padding: 1px;
+    width: 197px; /*рамка с градиентом и скруглением углов*/
+}
+#bigGradient {
+    width: 287px;
+}
+.inpRow {
+    background-color: #0f6686;
+    font-family: "colaborate-thin";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.329);
+    box-shadow: 0 0 8px #0d4255 inset;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+     /* без скругления углов градиент*/
+    /*border: solid 3px transparent;*/
+   /*-moz-border-image: -moz-linear-gradient(#133e4e, #98d8ef);
+    -webkit-border-image: -webkit-linear-gradient(#133e4e, #98d8ef); 
+    border-image-slice: 1;*/
+}
+.smallInpRow {
+    width: 195px;
+    height: 35px; 
+}
+.bigInpRow {
+    width: 285px;
+    height: 60px;
+    padding-top: 5%;
+}
+
+.copyright {
+    color: white;
+    font-family: "colaborate-thin";
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
