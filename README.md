@@ -9,7 +9,7 @@ CSS3      |Adobe Photoshop|           |
 JavaScript|               |           |
 
 
-**1. Контактные форма**
+**1. Контактные формы**
 
 ![Screenshort](/images/imgreadme/screen-main.png)
 &nbsp;
