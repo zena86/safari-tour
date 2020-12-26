@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
-
+body {
+	min-width: 1024px;
+}
 .container {
-	max-width: 1044px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 .main-screen {
@@ -23,7 +24,6 @@
 .nav {
 	background-image: url(images/topmenuBg.png);
 	width: 967px;
-/*	width: 92%;*/
 	height: 84px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -36,7 +36,6 @@
 	padding-top: 20px;
 }
 .header__menu {
-/*	background-color: pink;*/
 	max-width: 670px;
 	padding: 0 100px 0 30px;
     list-style: none;
@@ -51,7 +50,6 @@
 }
 .nav li {
 	font-size: 17px;
-/*    min-width: 19%;*/
 }
 .nav ul li a:link, .nav ul li a:visited {
     text-decoration: none;
@@ -59,7 +57,6 @@
 }
 .nav ul li a:hover {
 	text-decoration: underline;
-/*    color: #fbef05;*/
 }
 
 /*Логотип в HEDER*/
@@ -101,6 +98,8 @@
 	display: flex;
 	-ms-flex-item-align: center;
 	align-self: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
 }
 .main-screen__left {
@@ -508,7 +507,6 @@ textarea {
     flex-basis: 20%;  
 }
 
-
 /*Секция с картой*/
 
 .mapSection {
@@ -617,7 +615,6 @@ textarea {
     padding-left: 10%;
     padding-top: 3%;
 }
-
 .empty2 {
     height: 300px; 
     width: 100%;
@@ -765,7 +762,6 @@ footer {
     height: 60px;
     padding-top: 5%;
 }
-
 .copyright {
     color: white;
     font-family: "colaborate-thin";

@@ -102,8 +102,6 @@ dataOrderList["Australia Tourism"] = {
      ]
     };
 
-
-    
    
    dataOrderList["South America"] = {
      continentTitle: "South America",
@@ -130,7 +128,6 @@ dataOrderList["Australia Tourism"] = {
          },
      ]
     };
-    
     
     
     dataOrderList["North America"] = {
@@ -185,6 +182,7 @@ dataOrderList["Australia Tourism"] = {
 
 
 /* Связывает описаный континент с popUp*/
+
 function bindElement(className, x, y, title) {
     let continentElements = document.getElementsByClassName(className);
     for (i=0; i<continentElements.length; i++) 
@@ -204,6 +202,7 @@ function bindElement(className, x, y, title) {
     }
 }
 /*Определяет координаты popUp*/
+
 function showContet(x, y) {
     let popUpElement=document.getElementById("popUp");
     let mapElement=document.getElementById("mapImg");
@@ -226,8 +225,7 @@ function highlightElement(className) {
     let continentElements = document.getElementsByClassName(className);
     for (i=0; i<continentElements.length; i++) {
     continentElements[i].style.fill = "url(#colorContinentHighliter)";
-    }
-    
+    } 
 }
 /*Возвращает цвет континента к исходному*/
 function delHighlightElement(className) {
@@ -235,7 +233,6 @@ function delHighlightElement(className) {
     for (i=0; i<continentElements.length; i++) {
     continentElements[i].style.fill = "url(#colorMap)";
     }
-    
 }
 
 window.onload = function init()
@@ -264,9 +261,6 @@ window.onload = function init()
         btnToursElement.className="btnTours";
     }; 
 
-    
-    
-    
     bindElement("africa", 285, 157, "Africa Tourism");
     bindElement("europe", 280, -5, "Europe Tourism");
     bindElement("asia", 500, 150, "Asia Tourism");
