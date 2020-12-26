@@ -5,7 +5,7 @@ DEMO [Safari Tour](https://zena86.github.io/safari-tour/)
 Языки     |Инструменты    |Методология|Прочие     
 ----------|---------------|-----------|-----------
 HTML5     |Brackets       |БЭМ        |CSS flexbox
-CSS3      |Adobe Photoshop|           |           
+CSS3      |Adobe Photoshop|           |SVG         
 JavaScript|               |           |
 
 
