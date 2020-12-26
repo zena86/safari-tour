@@ -15,11 +15,10 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100vw;
+	width: 100%;
 }
 .header {
 	position: relative;
-/*	background-color: orange;*/
 }
 .nav {
 	background-image: url(images/topmenuBg.png);
@@ -102,15 +101,12 @@
 	display: flex;
 	-ms-flex-item-align: center;
 	align-self: center;
-/*	background-color: aquamarine;*/
+	justify-content: space-between;
 }
 .main-screen__left {
 	padding-top: 5%;
-/*
-	-ms-flex-item-align: center;
-	align-self: center;
-*/
 }
+
 /*Aeroplane*/
 
 .aeroplane__bg {
@@ -139,7 +135,22 @@
     font-size: 25px;
     line-height: 29px;
 }
+/*Arrow*/
 
+.ringBig {
+	position: absolute;
+	top: 70%;
+	left: 0;
+}
+.ringSmall{
+	position: absolute;
+	top: 80%;
+	left: 10%;
+}
+.ringBig:hover, .ringSmall:hover {
+    cursor: pointer;
+    width: 50px;
+}
 
 /* Форма в HEDER*/
 
@@ -164,7 +175,6 @@
     background-color: #299fca;
     border: solid 6px #7ebee0;
     border-radius: 15px;
-	margin-left: 30px;
 	padding: 25px 30px 15px 15px;
 }
 .headerInputRow {
@@ -256,7 +266,7 @@ textarea {
 /*Offer*/
 
 .main-screen__footer {
-	width: 100vw;
+	width: 100%;
 	background-image: url(images/cloud1a.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -266,16 +276,19 @@ textarea {
 	position: relative;
 	z-index: 5;
 }
-
 .offer {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 .titleOurSpecialOffers {
     font-family: "a_bodoninovanr_italic";
     font-size: 29px;
 	margin-bottom: 20px;
+	font-weight: 400;
 }
 .specialOffers {
     color: white; 
@@ -347,415 +360,8 @@ textarea {
     border-bottom: dotted 3px white;
 }
 
-
-
-
-
-
-
-
-.cloud2 {
-    background: url(images/cloud2.png) no-repeat;
-    width: 100%; 
-    height: 560px; 
-    position: relative;
-    z-index: 5;
-    background-size: 100%;
-}
-.contentCloud1 {
-    background: url(images/cloud1.png) no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 492px;
-    z-index: 1;
-    bottom: 0;
-    background-size: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-/*******************************/
-.allConternt {
-    min-width: 1300px;
-}
-
-/*HEADER*/
-/*
-header {
-    background-image: url(images/headerBg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-*/
-
-
-
-/*Навигация в HEDER*/
-
-/*
-nav {
-    background-image: url(images/topmenuBg.png);
-    background-repeat: no-repeat;
-    width: 967px;
-    height: 84px;
-    font-family: "AG_Souvenir", sans-serif;
-    font-size: 17px;
-    line-height: 52px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    margin-left: 13%;    
-}
-*/
-/*
-.contanerMenu {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    flex-basis: 65%;
-}
-nav li {
-    min-width: 19%;
-}
-
-nav ul li a:link, nav ul li a:visited {
-    text-decoration: none;
-    color: white;
-}
-nav ul li a:hover {
-    font-size: 20px;
-    font-weight: bolder;
-}
-*/
-/*Баннер с самолетом*/
-
-/*
-.empty {
-    height: 300px;
-}
-*/
-/*
-#contenerTitleAndForm {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-.siteTitle {
-    background-image: url(images/whiteCloud.png);
-    background-repeat: no-repeat;
-    width: 557px;
-    height: 289px;
-    margin-top: -12%;
-    margin-left: 10%;
-    align-self: flex-start;       
-}
-.aeroplane {
-    margin-left: -15%;
-    margin-top: 5%;
-}
-*/
-/*
-.cloudName {
-    font-family: "a_BighausTitulBrkExtraBold";
-    font-size: 51px;
-    line-height: 52px;
-    color: #127ea5;
-    margin-left: 35%;
-    margin-top: -10%;
-}
-.underCloudName {
-    font-family: "a_cooperblacknr";
-    color: #ded90e;
-    font-size: 25px;
-    line-height: 29px;
-    margin-left: 15%;
-}
-.underCloudName1 {
-    margin-left: 40%;
-}
-.underCloudName2 {
-    margin-left: 35%;
-}
-*/
-    
-.twoArrows {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    position: relative;
-    right: 700px;
-    bottom: 135px;
-    z-index: 7;
-    width: 120px;
-}
-
-.contanerArrow2  {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    height: 50px; 
-}
-.ringLeft:hover, .ringRight:hover {
-    cursor: pointer;
-    width: 50px;
-}
-/* Форма в HEDER*/
-
-/*
-.onlineBooking {
-    background: url(images/onlineBooking.png) no-repeat;
-    width:236px;
-    height: 49px;
-    font-family: "AGLettericaBoldBold";
-    color: white;
-    font-size: 21px;
-    padding-left: 7%;
-    position: absolute;
-    left: -10%;
-    margin-top: 7%;
-    display: flex;
-    align-items: center;
-}
-.formHeader {
-    background-color: #299fca;
-    border: solid 6px #7ebee0;
-    border-radius: 15px;
-    width: 320px;
-    margin-top: -69%;
-    margin-left: -40%;
-    height: 450px;
-    position: relative;
-
-}
-.onlyForm {
-    margin-top: 30%;
-}
-.headerInputRow {
-    border: solid 3px #a7d1e6;
-    border-radius: 7px;
-    margin-bottom: 10px;
-    height: 30px;
-    width: 170px;
-    padding-left: 5px;
-    font-family: "ag-foreigner-roman-medium";
-    font-size: 15px;
-    color: #299fca;
-}
-.select {
-    position: relative; 
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    font-family: "ag-foreigner-roman-medium";
-    font-size: 15px;
-    color: #299fca;
-    background: url('images/picArrow.png') no-repeat right center;
-    background-color: white;
-    text-align: center;
-    padding-right: 32px; 
-}
-.headerInputRowMessage {
-    height: 50px;
-}
-textarea {
-    resize: none; 
-}
-.formLadderBtn {
-    margin-right: 10%;
-    margin-left: 10%;
-}
-.contenerForm {
-    display: flex;
-    flex-direction: column;
-}
-.allFormRow {
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
-}
-.formWord {
-    width: 30%;
-    text-align: right;
-    color: white;
-    text-shadow: 
-        3px 0 3px #2090b9, 
-        0 3px 3px #2090b9, 
-        -3px 0 3px #2090b9, 
-        0 -3px 3px #2090b9; 
-    font-family: "ag-foreigner-roman-medium";
-    padding-right: 7%;   
-}
-.headerBtnSubmit {
-    background-color: #f1e60a;
-    color: #6db3ec;
-    border-radius: 7px;
-    height: 35px;
-    width: 95px;
-    font-family: "AGLettericaBoldBold";
-    font-size: 15px;
-    border: none;
-    z-index: 10;
-}
-.headerBtnSubmit:hover {
-    background-color: white;
-    color: #127ea5;
-    border:solid 3px #127ea5;
-    cursor: pointer;
-}
-
-.tableLadderAndSubmit {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.ladder {
-    text-align: center;
-    flex-basis: 30%;
-}
-.cloud2 {
-    background: url(images/cloud2.png) no-repeat;
-    width: 100%; 
-    height: 560px; 
-    position: relative;
-    z-index: 5;
-    background-size: 100%;
-}
-.contentCloud1 {
-    background: url(images/cloud1.png) no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 492px;
-    z-index: 1;
-    bottom: 0;
-    background-size: 100%;
-}
-*/
-/*Предложения с фото в HEDER*/
-
-/*
-#container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.titleOurSpecialOffers {
-    margin-top: 48%;
-    margin-bottom: 5%;
-    font-family: "a_bodoninovanr_italic";
-    font-size: 29px;
-}
-.specialOffers {
-    color: white;
-    -ms-flex-preferred-size: 23%;
-    flex-basis: 23%;
-}
-.offers {
-    margin-top: 5%;
-}
-.contanerRow1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-.contanerRow1 img {
-    -ms-flex-preferred-size: 35%;
-    flex-basis: 35%;
-}
-.textOffer {
-    margin-left: 5%;  
-}
-.textOffer h3 {
-    font-family: "colaborate-medium";
-    font-size: 17px;
-    margin-bottom: 5%;
-}
-.textOffer p {
-    font-family: "colaborate-thin";
-    font-size: 15px;
-}
-.contanerRow2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 4%;
-    padding-bottom: 5%;
-}
-.contanerRow2 span {
-    -ms-flex-preferred-size: 10%;
-    flex-basis: 10%;
-    font-family: "agbenguiatcyr_book";
-    font-size: 27px;
-    padding-right: 5%;
-}
-.btnReadMore {
-    background-color: #f1e60a;
-    color: #6db3ec;
-    border-radius: 7px;
-    height: 27px;
-    width: 100px;
-    font-family: "AGLettericaBoldBold";
-    font-size: 15px;
-    border: none;
-}
-.btnReadMore:hover {
-    background-color: white;
-    color: #127ea5;
-    border:solid 1px #127ea5;
-    cursor: pointer;
-}
-.contanerRow2Border {
-    border-bottom: dotted 3px white;
-*/
-    /*background:url('dоted.png') left bottom repeat-x;*/
-/*}*/
-
 /*Таблица с кнопками,кругами и турами в HEDER*/
-.contanerTable {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    color: white;
-    font-family: "colaborate-thin";
-    font-size: 16px;
-    -ms-flex-preferred-size: 45%;
-    flex-basis: 45%;
-    margin-left: -15%;
-    margin-top: 7%;
-}
+
 .contanerUponTable {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -767,8 +373,8 @@ textarea {
     -ms-flex-pack: justify;
     justify-content: space-between;
     border-bottom: solid 1px #81ffff;
-    width: 87%;
     margin-bottom: 2%;
+	width: 87%;
 }
 .twoBtns, .twoCircles {
     display: -webkit-box;
@@ -777,6 +383,7 @@ textarea {
 }
 
 /*Кнопки*/
+
 .contanerUponTable button {
     width: 120px;
     height: 30px;
@@ -810,6 +417,7 @@ textarea {
     cursor: pointer;
 }
 /*Круги*/
+
 .contanerCircleBig, .contanerCircleSmall {
     position: relative;
 }
@@ -851,9 +459,18 @@ textarea {
     font-size: 16px;
     padding-top: 15px;
     padding-left: 15px;
+	color: #fff;
 }
 
 /*Таблица*/
+
+.offer__right {
+	-webkit-box-flex:  1;
+	-ms-flex:  1 1 auto;
+	flex:  1 1 auto;
+	margin-left: 30px;
+	padding: 120px 0 0;
+}
 .tableRow {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -861,6 +478,16 @@ textarea {
     padding-bottom: 1%;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+	color: white;
+    font-family: "colaborate-thin";
+    font-size: 16px;
+}
+.tableRow a {
+	color: #fff;
+	text-decoration: none;	
+}
+.tableRow a:hover {
+	text-decoration: underline;
 }
 .tableCol1 {
     -ms-flex-preferred-size: 3%;
@@ -881,16 +508,16 @@ textarea {
     flex-basis: 20%;  
 }
 
+
 /*Секция с картой*/
 
 .mapSection {
-    /*background-image: url(images/mapBg.png);*/
     background-color: #d6e6ef;
     padding-bottom: 2%;
+	width: 100%;
 }
 .map {
-    display: table; /*сделать блок по ширине контента*/
-    margin: auto;
+	max-width: 1024px;
 }
 .map path {
     fill: url(#colorMap);
@@ -912,9 +539,7 @@ textarea {
 }
 
 /*POPUP в секции с картой*/
-.forPosition {
-     
-}
+
 .contenerPopUp {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -1002,10 +627,8 @@ textarea {
 
 footer {
     background-color: #127fa6;
-    padding-left: 10%;
-    padding-right: 10%;
+	width: 100%;
 }
-
 .contanerFooter {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1014,8 +637,6 @@ footer {
     justify-content: space-around;
     padding-top: 1%;
 }
-
-
 .colNewsLetter {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1025,7 +646,6 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 .newsLetter {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1035,14 +655,11 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
 .inpAndBtnNewsLetter {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-
-
 .titleFooter {
     font-family: "colaborate-regular";
     font-size: 25px;
@@ -1133,7 +750,6 @@ footer {
     border: none;
     border-radius: 5px;
     padding-left: 10px;
-    
      /* без скругления углов градиент*/
     /*border: solid 3px transparent;*/
    /*-moz-border-image: -moz-linear-gradient(#133e4e, #98d8ef);
