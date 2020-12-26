@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     
 }
@@ -33,11 +34,13 @@ header {
     font-size: 33px;
     line-height: 52px;
     color: #299fca;
+    -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
     margin-left: 13%;
     margin-top: 10%;     
 }
 .underSafariTour {
+    -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
     font-family: Arial;
     color: #299fca;
@@ -63,14 +66,22 @@ nav {
     margin-left: 13%;    
 }
 .contanerMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     width: 100%;
 }
 nav ul {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -ms-flex-preferred-size: 65%;
     flex-basis: 65%;
 }
 nav li {
@@ -91,8 +102,13 @@ nav ul li a:hover {
     height: 300px;
 }
 #contenerTitleAndForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 .siteTitle {
@@ -102,6 +118,7 @@ nav ul li a:hover {
     height: 289px;
     margin-top: -12%;
     margin-left: 10%;
+    -ms-flex-item-align: start;
     align-self: flex-start;       
 }
 .aeroplane {
@@ -131,7 +148,12 @@ nav ul li a:hover {
 }
     
 .twoArrows {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     position: relative;
     right: 700px;
@@ -141,7 +163,11 @@ nav ul li a:hover {
 }
 
 .contanerArrow2  {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     height: 50px;
      
@@ -163,7 +189,11 @@ nav ul li a:hover {
     position: absolute;
     left: -10%;
     margin-top: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .formHeader {
@@ -215,11 +245,20 @@ textarea {
     margin-left: 10%;
 }
 .contenerForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .allFormRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-top: 2%;
 }
@@ -255,11 +294,16 @@ textarea {
 
 .tableLadderAndSubmit {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 .ladder {
     text-align: center;
+    -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
 }
 .cloud2 {
@@ -282,8 +326,13 @@ textarea {
 /*Предложения с фото в HEDER*/
 
 #container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .titleOurSpecialOffers {
@@ -294,15 +343,19 @@ textarea {
 }
 .specialOffers {
     color: white;
+    -ms-flex-preferred-size: 23%;
     flex-basis: 23%;
 }
 .offers {
     margin-top: 5%;
 }
 .contanerRow1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .contanerRow1 img {
+    -ms-flex-preferred-size: 35%;
     flex-basis: 35%;
 }
 .textOffer {
@@ -318,13 +371,20 @@ textarea {
     font-size: 15px;
 }
 .contanerRow2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 4%;
     padding-bottom: 5%;
 }
 .contanerRow2 span {
+    -ms-flex-preferred-size: 10%;
     flex-basis: 10%;
     font-family: "agbenguiatcyr_book";
     font-size: 27px;
@@ -353,24 +413,38 @@ textarea {
 
 /*Таблица с кнопками,кругами и турами в HEDER*/
 .contanerTable {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     color: white;
     font-family: "colaborate-thin";
     font-size: 16px;
+    -ms-flex-preferred-size: 45%;
     flex-basis: 45%;
     margin-left: -15%;
     margin-top: 7%;
 }
 .contanerUponTable {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     border-bottom: solid 1px #81ffff;
     width: 87%;
     margin-bottom: 2%;
 }
 .twoBtns, .twoCircles {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -433,6 +507,7 @@ textarea {
     font-size: 25px;  
 }
 .contanerCircleSmall {
+    -ms-flex-item-align: end;
     align-self: flex-end;
     margin-left: -20%;
     z-index: 2;
@@ -452,22 +527,29 @@ textarea {
 
 /*Таблица*/
 .tableRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 1%;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 .tableCol1 {
+    -ms-flex-preferred-size: 3%;
     flex-basis: 3%;
     padding-left: 1%;
     padding-right: 1%;
 }
 .tableCol2 {
+    -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
 }
 .tableCol3 {
+    -ms-flex-preferred-size: 17%;
     flex-basis: 17%;
 }
 .tableCol4 {
+    -ms-flex-preferred-size: 20%;
     flex-basis: 20%;  
 }
 
@@ -506,6 +588,8 @@ textarea {
      
 }
 .contenerPopUp {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
     display: none;
     position: absolute;
@@ -516,9 +600,18 @@ textarea {
     background-repeat: no-repeat; 
     width: 357px;
     height: 279px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     padding-left: 4%;
     /*background-image: linear-gradient(to top right, #e5e1e1, #fcfafa);
@@ -533,10 +626,17 @@ textarea {
     width: 235px;
 }
 .popUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .popUpRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 6%;
 }
@@ -579,23 +679,38 @@ footer {
 }
 
 .contanerFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     padding-top: 1%;
 }
 
 
 .colNewsLetter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .newsLetter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .inpAndBtnNewsLetter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -616,7 +731,12 @@ footer {
 }
 .colContactUs {
     padding-top: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     color: white;
     font-family: "colaborate-thin";
@@ -624,17 +744,25 @@ footer {
     line-height: 27px;
 }
 .contanerRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nameRow {
+    -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
 }
 .contanerBtnSubscribe {
     padding-left: 5%;
+    -ms-flex-item-align: center;
     align-self: center;
 }
 .contenerbtnSubmit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 .btnFooter {
@@ -658,6 +786,7 @@ footer {
     
 }
 .gradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(#133e4e), to(#98d8ef));
     background: linear-gradient(#133e4e, #98d8ef);
     border-radius: 5px;
     padding: 1px;
@@ -671,6 +800,7 @@ footer {
     font-family: "colaborate-thin";
     font-size: 14px;
     color: rgba(255, 255, 255, 0.329);
+    -webkit-box-shadow: 0 0 8px #0d4255 inset;
     box-shadow: 0 0 8px #0d4255 inset;
     border: none;
     border-radius: 5px;
