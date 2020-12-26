@@ -2,53 +2,45 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Trevelling</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Safari Tour</title>
         <link rel="stylesheet" href="stylefonts.css">
         <link rel="stylesheet" href="style.css">
         <script src="main.js"></script>
 
     </head>
     <body>
-        <div class="allConternt">
-        <header>
-            <div class="logo">
-                <p class="safariTour">Safari Tour</p> <br/>
-                <p class="underSafariTour">International Tour packages</p>
-            </div>
-            <nav>
-                <div class="contanerMenu">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Flights</a></li>
-                    <li><a href="">Trains</a></li>
-                    <li><a href="">Reach us</a></li>
-                </ul>
+		<section class="main-screen">
+		<div class="container">
+			<header class="header">
+				<div class="header__logo">
+					<p class="safariTour">Safari Tour</p> <br/>
+                	<p class="underSafariTour">International Tour packages</p>
+				</div>
+				<nav class="nav">
+					<ul class="header__menu">
+						<li><a href="">Home</a></li>
+						<li><a href="">Packages</a></li>
+						<li><a href="">Flights</a></li>
+						<li><a href="">Trains</a></li>
+						<li><a href="">Reach us</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="main-screen__body">
+				<div class="main-screen__left">
+				<div class="aeroplane__bg">
+					<div class="aeroplane__content">
+						<h1 class="main-screen__title">Singapore</h1>
+						<p class="main-screen__text">Malaysia Singapore<p/>
+						<p class="main-screen__text">Super Saver Summer 2011</p>
                     </div>
-            </nav>
-            <div class="empty">
-            </div>
-            <div class="cloud2">
-            <div id="contenerTitleAndForm">
-                <div class="siteTitle">
-                    <img class="aeroplane" src="images/aeroplane.png">
-                    <h1 class="cloudName">Singapore</h1>
-                    <p class="underCloudName underCloudName1">Malaysia Singapore<p/>
-                    <p class="underCloudName underCloudName2">Super Saver Summer 2011</p>
+                        <a><img class="ringBig" src="images/leftArrow.png" alt="ring"></a>
+                        <a><img class="ringSmall" src="images/rightArrow.png" alt="ring"></a>
                 </div>
-              
-                  <div class="twoArrows">
-                    <div class="contanerArrow1">
-                        <a><img class="ringLeft" src="images/leftArrow.png" alt="ring"></a>
-                    </div>
-                    <div class="contanerArrow2">
-                        <a><img class="ringRight" src="images/rightArrow.png" alt="ring"></a>
-                    </div>
-                  
-                </div>
-                
-                <div class="bookingForm">
-                <form class="formHeader">
+				</div>
+				<div class="main-screen__right">
+					<form class="formHeader">
                         <p class="onlineBooking">Online Booking</p>  
                         <div class="onlyForm">
                             <div class="formLadderBtn">
@@ -70,200 +62,208 @@
                                 <div class="allFormRow">
                                     <p class="formWord">message:</p>
                                     <textarea name="message" rows="2" cols="24" class="headerInputRow headerInputRowMessage" ></textarea>
-                                </div>         
-                            <div class="tableLadderAndSubmit">
-                                    <div class="ladder"><img src="images/ladder.png" alt="ladder"></div>
-                                    <button class="headerBtnSubmit">Submit</button>    
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </form>
-                </div>    
-            </div>          
-            <div id="container" class="contentCloud1">
-            <div class="specialOffers">
-                <h2 class="titleOurSpecialOffers">Our special offers</h2>
-                <article class="offers">
-                    <div class="contanerRow1 ">
-                        <img src="images/photo1.png">
-                        <div class="textOffer">
-                            <h3>1914 translation </h3>
-                            <p>But I must explain to you how all this mistaken idea of denounc</p>
-                        </div>
-                    </div>
-                    <div class="contanerRow2 contanerRow2Border">
-                        <span>700$</span>
-                        <button class="btnReadMore" >Read more</button>
-                    </div>
-                </article>
-                <article class="offers">
-                    <div class="contanerRow1">
-                        <img src="images/photo2.png">
-                        <div class="textOffer">
-                            <h3>1914 translation </h3>
-                            <p>But I must explain to you how all this mistaken idea of denounc</p>
-                        </div>
-                    </div> 
-                    <div class="contanerRow2">
-                        <span>700$</span>
-                        <button class="btnReadMore">Read more</button>
-                    </div> 
-                </article>
-            </div>        
-                <div class="contanerTable">
-                
-                
-                    <div class="contanerUponTable">
-                        <div class="twoBtns">
-                        
-                            <div class="contanerBtnTours">
-                                <button class="btnTours" id="focusBtnTours">Tours</button>
-                            </div>
-                        
-                            <div class="contanerBtnPhotos">
-                                <button class="btnPhotos" id="focusBtnPhotos">Photos</button>
-                            </div>
-                     
-                        </div>
-                        <div class="twoCircles">
-                            
-                        <div class="contanerCircleBig">
-                            <div class="circleBig">
-                                <p class="specialSummer">Special</p>
-                                <p class="specialSummer specialSummerSmall"> &nbsp;Summer</p>
-                            </div>
-                            
-                        </div>
-                        <div class="contanerCircleSmall">
-                            <div class="circleSmall">
-                                <p class="offer">Offer</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply dummy text simply  Printing and typesetti</p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>10 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div>  
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply dummy text simply  Printing and </p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>10 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply dummy text simply </p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>11 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply  simply  Printing and typesetti</p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>22 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum imply dummy text simply  Printing and typesetti</p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>13 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply dummy text simply  Printd typesetti</p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>17 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply dummy text simply  Printing and typesetti</p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>19 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-                <div class="tableRow">
-                    <div class="tableCol1">
-                        <img src="images/listArrow.png">
-                    </div>
-                    <div class="tableCol2">
-                        <p>Lorem Ipsum is simply dummy text simply  Printing and typesetti</p>
-                    </div>
-                    <div class="tableCol3">
-                        <span>16 Days</span>
-                    </div>
-                    <div class="tableCol4">
-                        <a>more details</a>
-                    </div> 
-                </div>
-            </div>
-            </div>
-            </div>
-        </header>
-        
-        
+                                </div> 
+                                <div class="btn-cont"> 
+                                    <div class="ladder"><img src="images/ladder.png" alt="ladder"></div> 
+									<button class="headerBtnSubmit">Submit</button>    
+								</div> 
+                        	</div>
+                       	 	</div>
+                    	</div>
+                    </form>	
+				</div>
+			</div>
+			</div>
+			<div class="main-screen__footer">
+			<div class="container">
+			<div class="offer">
+				<div class="offer__left">
+					<div class="specialOffers">
+						<h2 class="titleOurSpecialOffers">Our special offers</h2>
+						<article class="offers">
+							<div class="contanerRow1 ">
+								<img src="images/photo1.png">
+								<div class="textOffer">
+									<h3>1914 translation </h3>
+									<p>But I must explain to you how all this mistaken idea of denouncing pleasure</p>
+								</div>
+							</div>
+							<div class="contanerRow2 contanerRow2Border">
+								<span>700$</span>
+								<button class="btnReadMore" >Read more</button>
+							</div>
+						</article>
+						<article class="offers">
+							<div class="contanerRow1">
+								<img src="images/photo2.png">
+								<div class="textOffer">
+									<h3>1914 translation </h3>
+									<p>But I must explain to you how all this mistaken idea of denouncing pleasure</p>
+								</div>
+							</div> 
+							<div class="contanerRow2">
+								<span>700$</span>
+								<button class="btnReadMore">Read more</button>
+							</div> 
+						</article>
+            		</div>        	
+					
+				</div>
+				<div class="offer__right">
+							<div class="contanerUponTable">
+								<div class="twoBtns">
+
+									<div class="contanerBtnTours">
+										<button class="btnTours" id="focusBtnTours">Tours</button>
+									</div>
+
+									<div class="contanerBtnPhotos">
+										<button class="btnPhotos" id="focusBtnPhotos">Photos</button>
+									</div>
+
+								</div>
+								<div class="twoCircles">
+
+								<div class="contanerCircleBig">
+									<div class="circleBig">
+										<p class="specialSummer">Special</p>
+										<p class="specialSummer specialSummerSmall"> &nbsp;Summer</p>
+									</div>
+
+								</div>
+								<div class="contanerCircleSmall">
+									<div class="circleSmall">
+										<p class="offer">Offer</p>
+									</div>
+								</div>
+								</div>
+							</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply dummy text simply  Printing</p>
+							</div>
+							<div class="tableCol3">
+								<span>10 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div>  
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply dummy text simply  Printing and </p>
+							</div>
+							<div class="tableCol3">
+								<span>10 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply dummy text simply </p>
+							</div>
+							<div class="tableCol3">
+								<span>11 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply  simply  Printing </p>
+							</div>
+							<div class="tableCol3">
+								<span>22 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum imply dummy text simply  Printing</p>
+							</div>
+							<div class="tableCol3">
+								<span>13 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply dummy text simply  Printd typesetti</p>
+							</div>
+							<div class="tableCol3">
+								<span>17 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply dummy text simply  Printing</p>
+							</div>
+							<div class="tableCol3">
+								<span>19 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+						<div class="tableRow">
+							<div class="tableCol1">
+								<img src="images/listArrow.png">
+							</div>
+							<div class="tableCol2">
+								<p>Lorem Ipsum is simply dummy text simply  Printing</p>
+							</div>
+							<div class="tableCol3">
+								<span>16 Days</span>
+							</div>
+							<div class="tableCol4">
+								<a href="">more details</a>
+							</div> 
+						</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		
+		</section>
+
         <section class="mapSection">
-            <h2>Find Tourist Spots by Map</h2>
-            <h3>Click on map</h3>      
+            <div class="container">
+				<h2>Find Tourist Spots by Map</h2>
+				<h3>Click on map</h3>
+            </div>
+<div class="container">   
 <svg class="map" version="1.0" id="mapImg" width="961pt" height="469pt" 
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 468 239" style="enable-background:new 0 0 961 469;" xml:space="preserve">
@@ -1691,6 +1691,7 @@
 		c-36-6-54.6-3.6-67.7,9.5C7378.3,7889.2,7370.6,7888,7340.1,7871.3z"fill="orange"/>
 </g>
 </svg>
+</div>       
         </section>        
         <div class="forPosition">
         <div class="contenerPopUp" id="popUp">  
@@ -1745,11 +1746,9 @@
         </div>
         </div>
         </div>
-            
-              
-        
+
         <footer>
-            <div class="contanerFooter">
+            <div class="contanerFooter container">
                 <div class="colNewsLetter">
                     
                     <div class="newsLetter">
@@ -1821,11 +1820,8 @@
                     </div>
                 </div>
             </div>
-            
-            
-            
-            <p class="copyright">Copyright 2013 cssauthor.com, All Rights Reserved Designed All Rights Reserved </p>  
+            <p class="copyright container">Copyright 2013 cssauthor.com, All Rights Reserved Designed All Rights Reserved </p>  
         </footer>
-     </div>
-            
+
     </body>
+</html>
