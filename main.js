@@ -102,9 +102,6 @@ dataOrderList["Australia Tourism"] = {
      ]
     };
 
-
-    
-   
    dataOrderList["South America"] = {
      continentTitle: "South America",
      orderArray: [
@@ -264,9 +261,6 @@ window.onload = function init()
         btnToursElement.className="btnTours";
     }; 
 
-    
-    
-    
     bindElement("africa", 335, 197, "Africa Tourism");
     bindElement("europe", 310, -77, "Europe Tourism");
     bindElement("asia", 650, 70, "Asia Tourism");
