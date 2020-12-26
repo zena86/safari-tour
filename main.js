@@ -102,6 +102,10 @@ dataOrderList["Australia Tourism"] = {
      ]
     };
 
+<<<<<<< HEAD
+=======
+   
+>>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
    dataOrderList["South America"] = {
      continentTitle: "South America",
      orderArray: [
@@ -127,7 +131,6 @@ dataOrderList["Australia Tourism"] = {
          },
      ]
     };
-    
     
     
     dataOrderList["North America"] = {
@@ -182,6 +185,7 @@ dataOrderList["Australia Tourism"] = {
 
 
 /* Связывает описаный континент с popUp*/
+
 function bindElement(className, x, y, title) {
     let continentElements = document.getElementsByClassName(className);
     for (i=0; i<continentElements.length; i++) 
@@ -201,6 +205,7 @@ function bindElement(className, x, y, title) {
     }
 }
 /*Определяет координаты popUp*/
+
 function showContet(x, y) {
     let popUpElement=document.getElementById("popUp");
     let mapElement=document.getElementById("mapImg");
@@ -223,8 +228,7 @@ function highlightElement(className) {
     let continentElements = document.getElementsByClassName(className);
     for (i=0; i<continentElements.length; i++) {
     continentElements[i].style.fill = "url(#colorContinentHighliter)";
-    }
-    
+    } 
 }
 /*Возвращает цвет континента к исходному*/
 function delHighlightElement(className) {
@@ -232,7 +236,6 @@ function delHighlightElement(className) {
     for (i=0; i<continentElements.length; i++) {
     continentElements[i].style.fill = "url(#colorMap)";
     }
-    
 }
 
 window.onload = function init()
@@ -245,7 +248,7 @@ window.onload = function init()
     
 /*при загрузке по умолчанию выделена Africa*/
     makePopUp("Africa Tourism");
-    showContet(335, 197);
+    showContet(285, 157);
     highlightElement("africa"); 
     
 /*кнопки Tours and Photos меняют стиль при нажатии"*/
@@ -261,11 +264,19 @@ window.onload = function init()
         btnToursElement.className="btnTours";
     }; 
 
+<<<<<<< HEAD
     bindElement("africa", 335, 197, "Africa Tourism");
     bindElement("europe", 310, -77, "Europe Tourism");
     bindElement("asia", 650, 70, "Asia Tourism");
     bindElement("australia", 750, 340, "Australia Tourism");
     bindElement("southAmerica", 60, 330, "South America");
+=======
+    bindElement("africa", 285, 157, "Africa Tourism");
+    bindElement("europe", 280, -5, "Europe Tourism");
+    bindElement("asia", 500, 150, "Asia Tourism");
+    bindElement("australia", 550, 320, "Australia Tourism");
+    bindElement("southAmerica", 0, 300, "South America");
+>>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
     bindElement("northAmerica", 0, 0, "North America");
 };
 
