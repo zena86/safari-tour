@@ -102,10 +102,7 @@ dataOrderList["Australia Tourism"] = {
      ]
     };
 
-<<<<<<< HEAD
-=======
-   
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
+
    dataOrderList["South America"] = {
      continentTitle: "South America",
      orderArray: [
@@ -264,19 +261,12 @@ window.onload = function init()
         btnToursElement.className="btnTours";
     }; 
 
-<<<<<<< HEAD
-    bindElement("africa", 335, 197, "Africa Tourism");
-    bindElement("europe", 310, -77, "Europe Tourism");
-    bindElement("asia", 650, 70, "Asia Tourism");
-    bindElement("australia", 750, 340, "Australia Tourism");
-    bindElement("southAmerica", 60, 330, "South America");
-=======
     bindElement("africa", 285, 157, "Africa Tourism");
     bindElement("europe", 280, -5, "Europe Tourism");
     bindElement("asia", 500, 150, "Asia Tourism");
     bindElement("australia", 550, 320, "Australia Tourism");
     bindElement("southAmerica", 0, 300, "South America");
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
+
     bindElement("northAmerica", 0, 0, "North America");
 };
 

@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-<<<<<<< HEAD
     box-sizing: border-box;
-    
-=======
-    box-sizing: border-box;  
 }
 body {
 	min-width: 1024px;
@@ -51,7 +47,6 @@ body {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
 .nav li {
 	font-size: 17px;
@@ -97,85 +92,6 @@ body {
     margin-left: 18%;
     margin-top: -13%;
 }
-<<<<<<< HEAD
-
-/*Навигация в HEDER*/
-
-nav {
-    background-image: url(images/topmenuBg.png);
-    background-repeat: no-repeat;
-    width: 967px;
-    height: 84px;
-    font-family: "AG_Souvenir", sans-serif;
-    font-size: 17px;
-    line-height: 52px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    margin-left: 13%;    
-}
-.contanerMenu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    width: 100%;
-}
-nav ul {
-    list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -ms-flex-preferred-size: 65%;
-    flex-basis: 65%;
-}
-nav li {
-    min-width: 19%;
-}
-
-nav ul li a:link, nav ul li a:visited {
-    text-decoration: none;
-    color: white;
-}
-nav ul li a:hover {
-    font-size: 20px;
-    font-weight: bolder;
-}
-/*Баннер с самолетом*/
-
-.empty {
-    height: 300px;
-}
-#contenerTitleAndForm {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-}
-.siteTitle {
-    background-image: url(images/whiteCloud.png);
-    background-repeat: no-repeat;
-    width: 557px;
-    height: 289px;
-    margin-top: -12%;
-    margin-left: 10%;
-    -ms-flex-item-align: start;
-    align-self: flex-start;       
-}
-.aeroplane {
-    margin-left: -15%;
-    margin-top: 5%;
-}
-.cloudName {
-=======
 .main-screen__body {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -207,7 +123,6 @@ nav ul li a:hover {
 	text-align: center;
 }
 .main-screen__title {
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
     font-family: "a_BighausTitulBrkExtraBold";
     font-size: 51px;
     line-height: 52px;
@@ -218,16 +133,8 @@ nav ul li a:hover {
     color: #ded90e;
     font-size: 25px;
     line-height: 29px;
-<<<<<<< HEAD
     margin-left: 15%;
-}
-.underCloudName1 {
-    margin-left: 40%;
-}
-.underCloudName2 {
-    margin-left: 35%;
-}
-    
+}  
 .twoArrows {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -241,27 +148,11 @@ nav ul li a:hover {
     bottom: 135px;
     z-index: 7;
     width: 120px;
-=======
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
-/*Arrow*/
-
-<<<<<<< HEAD
-.contanerArrow2  {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    height: 50px;
-     
-=======
 .ringBig {
 	position: absolute;
 	top: 70%;
 	left: 0;
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
 .ringSmall{
 	position: absolute;
@@ -282,18 +173,6 @@ nav ul li a:hover {
     font-family: "AGLettericaBoldBold";
     color: white;
     font-size: 21px;
-<<<<<<< HEAD
-    padding-left: 7%;
-    position: absolute;
-    left: -10%;
-    margin-top: 7%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-=======
 	margin-bottom: 30px;
 	margin-left: -35px;
 	padding-left: 20px;
@@ -303,7 +182,6 @@ nav ul li a:hover {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
 .formHeader {
     background-color: #299fca;
@@ -397,52 +275,6 @@ textarea {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-.tableLadderAndSubmit {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-.ladder {
-    text-align: center;
-    -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
-}
-.cloud2 {
-    background: url(images/cloud2.png) no-repeat;
-    width: 100%; 
-    height: 560px; 
-    position: relative;
-    z-index: 5;
-    background-size: 100%;
-}
-.contentCloud1 {
-    background: url(images/cloud1.png) no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 492px;
-    z-index: 1;
-    bottom: 0;
-    background-size: 100%;
-}
-/*Предложения с фото в HEDER*/
-
-#container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-=======
-/*Offer*/
-
 .main-screen__footer {
 	width: 100%;
 	background-image: url(images/cloud1a.png);
@@ -461,7 +293,6 @@ textarea {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
 .titleOurSpecialOffers {
     font-family: "a_bodoninovanr_italic";
@@ -470,14 +301,11 @@ textarea {
 	font-weight: 400;
 }
 .specialOffers {
-<<<<<<< HEAD
     color: white;
     -ms-flex-preferred-size: 23%;
     flex-basis: 23%;
-=======
     color: white; 
 	padding: 140px 0 0;
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
 .offers {
     margin-bottom: 20px;	
@@ -489,14 +317,11 @@ textarea {
 	min-width: 350px;
 }
 .contanerRow1 img {
-<<<<<<< HEAD
     -ms-flex-preferred-size: 35%;
     flex-basis: 35%;
-=======
 	-webkit-box-flex: 0;
 	-ms-flex: 0 1 auto;
 	flex: 0 1 auto;
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
 }
 .textOffer {
     margin-left: 5%;
@@ -551,7 +376,7 @@ textarea {
 }
 
 /*Таблица с кнопками,кругами и турами в HEDER*/
-<<<<<<< HEAD
+
 .contanerTable {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -567,23 +392,6 @@ textarea {
     flex-basis: 45%;
     margin-left: -15%;
     margin-top: 7%;
-}
-=======
-
->>>>>>> b44041f8ad63f0ecdcc29bc477d94d0ff7b6b59e
-.contanerUponTable {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    border-bottom: solid 1px #81ffff;
-    margin-bottom: 2%;
-	width: 87%;
 }
 .twoBtns, .twoCircles {
     display: -webkit-box;
@@ -782,7 +590,6 @@ textarea {
     }
 .popUpAndScroll {  
     overflow-y: scroll;
-    /*scrollbar-track-color: black;*/
     height: 187px;
     width: 235px;
 }
@@ -951,7 +758,7 @@ footer {
     background-color: #0f6686;
     font-family: "colaborate-thin";
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.329);
+    color: rgb(255, 255, 255);
     -webkit-box-shadow: 0 0 8px #0d4255 inset;
     box-shadow: 0 0 8px #0d4255 inset;
     border: none;
